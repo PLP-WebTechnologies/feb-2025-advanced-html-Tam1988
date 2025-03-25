@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta name="description" content="A web page with all the farming tools you need">
+        <meta name="author" content="Farmer Tamara">
+        <title>Tamara's Farm Tools</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>5 Must Have farming Tools For Beginners</h1>
+            <ol type="i" start="1">
+                <li>Shovel</li>
+                <li>Trowel</li>
+                <li>Watering can</li>
+                <li>Hoe</li>
+                <li>Rake</li>
+            </ol>
+        </header>
+        <br><br>
+
+        <img src="Farming.jpg" alt="Image of a man holding three potatoes" height="550" width="350">
+        <br><br>
+
+        <table border="2">
+            <caption><h3>Staff Contact Information</h3></caption>  
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Kevin</td>
+                    <td>2B Tamara's Farmstead Estate, Delta state.</td>
+                    <td>+2347056390485</td>
+                    <td>Kevin@tamarafarmworlwide.com</td>
+                </tr>
+                <tr>
+                    <td>2. Roni</td>
+                    <td>6A Tamara's Farmstead Estate, Delta state.</td>
+                    <td>+2348704385832</td>
+                    <td>Roni@tamarafarmworlwide.com</td>
+                </tr>
+                <tr>
+                    <td>3. Sal</td>
+                    <td>1B Tamara's Farmstead Estate, Delta state.</td>
+                    <td>+2345639103960</td>
+                    <td>Sal@tamarafarmworlwide.com</td>
+                </tr>
+                <tr>
+                    <td>4. Love</td>
+                    <td>3C Tamara's Farmstead Estate, Delta state.</td>
+                    <td>+2342140735973</td>
+                    <td>Love@tamarafarmworlwide.com</td>
+                </tr>
+                <tr>
+                    <td>5. Kev</td>
+                    <td>1C Tamara's Farmstead Estate, Delta state.</td>
+                    <td>+2347420864914</td>
+                    <td>Kev@tamarafarmworlwide.com</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </tfoot>
+        </table>
+        <form action="" method="">
+            <fieldset>
+            <legend><h1>Registration Form</h1></legend>
+            <fieldset>
+                <legend><h3>Personal Information</h3></legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+                <br><br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+                <br><br>
+
+                <label for="date fields">Date Of Birth:</label>
+                <input type="datetime-local" id="datetime-local" name="datetime-local" required>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <br><br>
+
+                <label for="Email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="4" maxlength="10"
+                    placeholder="choose a strong password" required>    
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend><h3>Farming History</h3>
+                </legend>
+                <label for="qualification">Qualification:</label>
+                <input type="radio" id="qualification" name="qualification" value="Beginner"> Beginner
+                <input type="radio" id="qualification" name="qualification" value="Intermediate"> Intermediate
+                <input type="radio" id="qualification" name="qualification" value="Advanced"> Advanced
+                <br><br>
+
+                <label for="tools_experience">Farm Tools Experience</label>
+                <input type="checkbox" id="tools_experience" name="tools_experience" value="manual_tools"> Manual tools
+                <input type="checkbox" id="tools_experience" name="tools_experience" value="mechanized_tools"> Mechanized tools
+                <br><br>
+
+                <caption>Farming Specialization</caption>
+                <label for="farming_specialization"></label>
+                <select name="farming_specialization" id="farming_specialization">
+                    <option>--Select Farming Specialization--</option>
+                    <option value="Crop_farming">Crop farming</option>
+                    <option value="Livestock_farming">Livestock farming</option>
+                    <option value="Mixed_farming">Mixed farming</option>
+                    <option value="Organic_farming">Organic farming</option>
+                    <option value="Sustainable_farming">Sustainable farming</option>
+                </select>
+            </fieldset>
+            <br><br>
+        <label type="description">Describe yourself:</label>
+        <textarea id="description" name="description"></textarea>
+        <br><br>
+
+        <button>Register</button>
+        <input type="button" value="cancel">
+        </form>
+     </fieldset>
+    </body>
+
+</html>
